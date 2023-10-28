@@ -39,7 +39,7 @@ const TermsAndConditions = ({ info }) => {
                 </h1>
                 <div className="prose max-w-none pt-8">
                   <PortableText
-                    value={info[0].termsAndConditions}
+                    value={info[0] ? info[0].termsAndConditions : []}
                     components={RichTextComponent}
                   />
                 </div>

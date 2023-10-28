@@ -23,7 +23,7 @@ const Layout = ({ children, infoData, products }) => {
   return (
     <div className="layout">
       <Head>
-        <title>JK Supermarket</title>
+        <title>Gauranga Trophies</title>
         <link rel="icon" href="/favicon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
