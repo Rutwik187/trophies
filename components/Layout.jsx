@@ -24,7 +24,7 @@ const Layout = ({ children, infoData, products }) => {
     <div className="layout">
       <Head>
         <title>Gauranga Trophies</title>
-        <link rel="icon" href="/favicon.jpg" />
+        <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"

@@ -178,7 +178,13 @@ export default function CheckoutModal({
                   </div>
 
                   <img
-                    src={info[0] ? urlFor(info[0].payQR).url() : ""}
+                    src={
+                      info[0]
+                        ? info[0].payQR
+                          ? urlFor(info[0].payQR).url()
+                          : ""
+                        : ""
+                    }
                     alt="Payment QR"
                     className="object-contain"
                   />
