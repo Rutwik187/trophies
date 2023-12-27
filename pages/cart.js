@@ -100,7 +100,7 @@ const Cart = ({ coupons, productData, infoData, categories }) => {
             }
         }
     };
-    { console.log(infoData) }
+
     return (
         <div>
             <Header product={productData} info={infoData} categories={categories} />
